@@ -1,4 +1,4 @@
-package com.sephora.repository;
+package com.sephora.jdbc;
 
 import com.sephora.model.Department;
 
