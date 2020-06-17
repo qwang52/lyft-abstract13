@@ -6,7 +6,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DepartmentDao {
+public class DepartmentJDBCDao {
     static final String dbURL = System.getProperty("database.url");
     static final String username = System.getProperty("database.user");
     static final String password = System.getProperty("database.password");
@@ -58,7 +58,7 @@ public class DepartmentDao {
     }
 
     public static void main(String[] args){
-        DepartmentDao departmentJDBCDao = new DepartmentDao();
+        DepartmentJDBCDao departmentJDBCDao = new DepartmentJDBCDao();
         System.out.println(departmentJDBCDao.getDepartments());
     }
 

@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import java.util.List;
 
-public class DepartmentJDBCDaoTest {
+public class DepartmentDaoTest {
     private DepartmentDao departmentDao;
 
     @Before
